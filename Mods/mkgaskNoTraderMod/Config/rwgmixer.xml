@@ -1,0 +1,3 @@
+<configs>
+	<remove xpath="/rwgmixer/prefab_rules/prefab_rule//prefab[starts-with(@name,'trader')]"/>
+</configs>
