@@ -1,3 +1,13 @@
 <configs>
-	<remove xpath="/rwgmixer/prefab_rules/prefab_rule//prefab[starts-with(@name,'trader')]"/>
+    <append xpath="/rwgmixer/township[@name=countrytown]">
+        <property name="spawn_trader" value="false"/>
+    </append>
+
+    <append xpath="/rwgmixer/township[@name=town]">
+        <property name="spawn_trader" value="false"/>
+    </append>
+
+    <append xpath="/rwgmixer/township[@name=city]">
+        <property name="spawn_trader" value="false"/>
+    </append>
 </configs>
