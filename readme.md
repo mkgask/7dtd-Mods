@@ -14,14 +14,14 @@ So Append craft setting for SolarCell and SolerBank.
 
 ### 使い方
 
-1. mkgaskNoTraderMod.zipを[リリースページ](releases)からダウンロードし、展開してください。
+1. mkgaskNoTraderMod.zipを[リリースページ](https://github.com/mkgask/mkgask7dtdNoTraderMod/releases)からダウンロードし、展開してください。
 2. mkgaskNoTraderModフォルダーを、7DaysToDie.exeと同じフォルダーにあるModsフォルダー内にコピーしてください。  
   もしModsフォルダーが無かった場合は作成してください。
 3. 7DaysToDieを起動し、新規にランダムマップを作成して遊んでください。
 
 ### Usage
 
-1. Download "mkgaskNoTraderMod.zip" from [Releases](releases) and extract.
+1. Download "mkgaskNoTraderMod.zip" from [Releases](https://github.com/mkgask/mkgask7dtdNoTraderMod/releases) and extract.
 2. Copy "mkgaskNoTraderMod" folder to "Mods" folder in "7DaysToDie.exe" same folder, and create "Mods" folder if not exists.
 3.  Start 7DaysToDie, create new random map and enjoy play.
 
