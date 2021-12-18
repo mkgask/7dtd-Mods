@@ -15,8 +15,9 @@ So Append craft setting for SolarCell and SolerBank.
 ### 使い方
 
 1. mkgaskNoTraderMod.zipを[リリースページ](releases)からダウンロードし、展開してください。
-2. mkgaskNoTraderModフォルダーを、7DaysToDie.exeと同じフォルダーにあるModsフォルダー内にコピーしてください。もしModsフォルダーが無かった場合は作成してください。
-4. 7DaysToDieを起動し、新規にランダムマップを作成して遊んでください。
+2. mkgaskNoTraderModフォルダーを、7DaysToDie.exeと同じフォルダーにあるModsフォルダー内にコピーしてください。  
+  もしModsフォルダーが無かった場合は作成してください。
+3. 7DaysToDieを起動し、新規にランダムマップを作成して遊んでください。
 
 ### Usage
 
@@ -43,7 +44,7 @@ So Append craft setting for SolarCell and SolerBank.
 ### ちなみに
 
 オススメ設定はトレーダーなし、エアドロップなし、ルート品再補充なしです。  
-敵がゾンビから食料になり、サバイバルがより楽しめます。
+敵がゾンビから食料になり、サバイバルがより楽しめます。  
 お好みでルート品入手率を下げるのも面白いです。
 
 ### As a side note
