@@ -2,8 +2,8 @@
 <xml>
 	<ModInfo>
 		<Name value="mkgaskNoTraderMod" />
-		<Description value="No trader mod" />
+		<Description value="Disable trader. Player initial spawn is random. Craft SolarBank and SolarCell." />
 		<Author value="@mkgask" />
-		<Version value="0.2.0" />
+		<Version value="0.3.0" />
 	</ModInfo>
 </xml>
