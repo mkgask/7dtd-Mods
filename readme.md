@@ -44,11 +44,11 @@ So Append craft setting for SolarCell and SolerBank.
 ### ちなみに
 
 オススメ設定はトレーダーなし、エアドロップなし、ルート品再補充なしです。  
-敵がゾンビから食料になり、サバイバルがより楽しめます。  
+敵がゾンビから飲食物になり、サバイバルがより楽しめます。  
 お好みでルート品入手率を下げるのも面白いです。
 
 ### As a side note
 
 Recommended settings are NO trader and NO air drop and, NO loot respawn.  
-Enemies become food from zombies, and you can enjoy survival more.  
+Enemies become food and drink from zombies, and you can enjoy survival more.  
 I think you can more enjoy for rate down loot getting parameter.
