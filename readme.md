@@ -2,22 +2,29 @@
 
 ### これは何
 
-[7DaysToDie](https://7daystodie.com)というサバイバルゾンビホードクラフトゲームのModパックです。
-以下のModが入っています。
+[7DaysToDie](https://7daystodie.com)というサバイバルゾンビホードクラフトゲームのModパックです
 
-1. DisableTraderTypeA : トレーダー縛りMod（建物ごと消去）*1 *2
-1. DisableTraderTypeB : トレーダー縛りMod（トレーダーNPCだけ消去 : ゲーム起動の度に赤字エラーが出ます）*1 *2
-1. CraftSolarCellBank : ソーラーセルとソーラーバンクのクラフト
+以下のModが入っています:
 
-*1 どちらか一つだけで問題ないです。
-*2 消去に失敗している場合や既存マップではトレーダーは24時間閉店のままになります。
+- DisableTraderTypeA : トレーダー縛りMod（建物ごと消去）*1 *2
+- DisableTraderTypeB : トレーダー縛りMod（トレーダーNPCだけ消去 : ゲーム起動の度に赤字エラーが出ます）*1 *2
+- CraftSolarCellBank : ソーラーセルとソーラーバンクのクラフト : 高度エンジニアリングLv5が必要です
+
+*1 どちらか一つだけで問題ないです。  
+*2 消去に失敗している場合や既存マップではトレーダーは24時間閉店のままになります。  
 
 ### What's this
 
-This is Modlet to [7DaysToDie](https://7daystodie.com) for survival zombie horde craft game.  
-Don't spawn for Trader and Trader building.  
-If Trader no spawn, can't get for SolarCell and SolerBank.  
-So Append craft setting for SolarCell and SolerBank.
+This is Mod Pack for [7DaysToDie](https://7daystodie.com) survival zombie horde craft game
+
+Includes Mods:
+
+- DisableTraderTypeA : remove trader with trader Building *1 *2
+- DisableTraderTypeB : remove trader npc : show console error every game start *1 *2
+- CraftSolarCellBank : require Advanced Engineering level 5
+
+*1 Only one of them  
+*2 Trader will all time closed 24 hours if erasure fails or on existing maps  
 
 ### 使い方
 
