@@ -2,7 +2,7 @@
 
 ### これは何
 
-[7DaysToDie](https://7daystodie.com)というサバイバルゾンビホードクラフトゲームのModパックです
+[7DaysToDie](https://7daystodie.com)というサバイバルゾンビホードクラフトゲームのModパックです。
 
 以下のModが入っています:
 
@@ -13,9 +13,12 @@
 *1 どちらか一つだけで問題ないです。  
 *2 消去に失敗している場合や既存マップではトレーダーは24時間閉店のままになります。  
 
+**a20-b237のテストがまだなのでリリースを更新していません。**  
+**a20-b233にはTypeAとCraftSolarCellBankが入っています。**  
+
 ### What's this
 
-This is Mod Pack for [7DaysToDie](https://7daystodie.com) survival zombie horde craft game
+This is Mod Pack for [7DaysToDie](https://7daystodie.com) survival zombie horde craft game.
 
 Includes Mods:
 
@@ -23,8 +26,11 @@ Includes Mods:
 - DisableTraderTypeB : remove trader npc : show console error every game start *1 *2
 - CraftSolarCellBank : require Advanced Engineering level 5
 
-*1 Only one of them  
-*2 Trader will all time closed 24 hours if erasure fails or on existing maps  
+*1 Only one of them.  
+*2 Trader will all time closed 24 hours if erasure fails or on existing maps.  
+
+**Not update release because a20-b237 is not test sitll.**  
+**a20-b233 release is includes DisableTraderTypeA with CraftSolarCellBank.**
 
 ### 使い方
 
