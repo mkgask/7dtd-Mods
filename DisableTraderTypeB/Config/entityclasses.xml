@@ -1,0 +1,7 @@
+<configs>
+    <remove xpath="/entity_classes/entity_class[@name=npcTraderJoel]" />
+    <remove xpath="/entity_classes/entity_class[@name=npcTraderRekt]" />
+    <remove xpath="/entity_classes/entity_class[@name=npcTraderBob]" />
+    <remove xpath="/entity_classes/entity_class[@name=npcTraderHugh]" />
+    <remove xpath="/entity_classes/entity_class[@name=npcTraderJen]" />
+</configs>

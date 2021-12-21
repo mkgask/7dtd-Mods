@@ -1,0 +1,4 @@
+<configs>
+	<setattribute xpath="/traders//trader_info" name="open_time">0:00</setattribute>
+	<setattribute xpath="/traders//trader_info" name="close_time">0:01</setattribute>
+</configs>
