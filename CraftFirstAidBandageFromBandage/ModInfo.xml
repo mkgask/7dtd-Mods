@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="mkgaskCraftFirstAidBandageFromBandage" />
+		<Description value="Craft First Aid Bandage from normal Bandage." />
+		<Author value="@mkgask" />
+		<Version value="0.1.0" />
+	</ModInfo>
+</xml>

@@ -1,0 +1,12 @@
+Key,japanese
+lblContextActionOpen,開ける
+vehicleWheels,タイヤ
+lootTooltipEmpty,空の{1}
+
+gunHandgunT3DesertVulture,デザートヴァルチャー
+gunHandgunT3DesertVultureSchematic,設計図「デザートヴァルチャー」
+
+drinkJarEmpty,空き瓶
+drinkJarBoiledWater,浄水
+staminaAndToolsTip,初めて鉄製ツールを手にした方のうちほとんどがその重量に驚かされます。\n鉄のつるはしは石斧と比べ、金属に対して２倍のダメージを与えることができますが、振るうたびに２倍のスタミナを消費します。\n\nレベルが上がる、または調理された食物を食べると基礎スタミナが増加します。\n飲み物や特殊技能はスタミナの回復を補助し、スタミナの消費と力を使っているときの腹減り具合を低下させます。\n\nまた、スタミナの回復は浄水を飲むだけでもできます。
+drinkJarRedTea,煮出し茶

@@ -1,4 +1,4 @@
-# 7DaysToDie No Trader Mod
+# 7DaysToDie No Trader Mod Pack
 
 ### これは何
 
@@ -7,14 +7,15 @@
 以下のModが入っています:
 
 - DisableTraderTypeA : トレーダー縛りMod（建物ごと消去）*1 *2
-- DisableTraderTypeB : トレーダー縛りMod（トレーダーNPCだけ消去 : ゲーム起動の度に赤字エラーが出ます）*1 *2
-- CraftSolarCellBank : ソーラーセルとソーラーバンクのクラフト : 高度エンジニアリングLv5が必要です
+- DisableTraderTypeB : トレーダー縛りMod（トレーダーNPCだけ消去 : トレーダーの建物に近寄ると赤字エラーが出るうえ近距離ワープします）*1
+- DisableTraderTypeC : トレーダー縛りMod（トレーダー24時間閉店）*1
+- CraftSolarCellBank : ソーラーセルとソーラーバンクのレシピ追加 : 高度エンジニアリングLv5が必要です
+- CraftFirstAidBandageFromBandage : 普通の包帯とアロエクリームで救急包帯を作るレシピの追加
+- FixJpTranslate : 公式日本語を少し修正 *3
 
-*1 どちらか一つだけで問題ないです。  
-*2 消去に失敗している場合や既存マップではトレーダーは24時間閉店のままになります。  
-
-**a20-b237のテストがまだなのでリリースを更新していません。**  
-**a20-b233にはTypeAとCraftSolarCellBankが入っています。**  
+*1 全部入れたままだとDisableTraderTypeAが優先されますが、どれか一つだけで残りは消しても問題ないです。  
+*2 恐らくトレーダーの建物が初期スポーンの起点になっているため、初期スポーン地点が全マップ中からランダムになります。荒れ地とか雪山とか湖の中とかにスポーンする可能性があります。  
+*3 他の日本語化MODが入っている場合、削除して問題ありません。
 
 ### What's this
 
@@ -22,27 +23,28 @@ This is Mod Pack for [7DaysToDie](https://7daystodie.com) survival zombie horde 
 
 Includes Mods:
 
-- DisableTraderTypeA : remove trader with trader Building *1 *2
-- DisableTraderTypeB : remove trader npc : show console error every game start *1 *2
-- CraftSolarCellBank : require Advanced Engineering level 5
+- DisableTraderTypeA : Remove trader with trader Building *1 *2
+- DisableTraderTypeB : Remove trader npc : show console error and you will warp short distance, when approaching the trader building *1
+- DisableTraderTypeC : Trader is closed 24 hours all time *1
+- CraftSolarCellBank : Require Advanced Engineering level 5
+- CraftFirstAidBandageFromBandage : Require Physician perk (vanilla default) and normal bandage with aloe cream
+- fixJpTranslate : Japanese correction a little *3
 
-*1 Only one of them.  
-*2 Trader will all time closed 24 hours if erasure fails or on existing maps.  
-
-**Not update release because a20-b237 is not test sitll.**  
-**a20-b233 release is includes DisableTraderTypeA with CraftSolarCellBank.**
+*1 If you leave all of them in, DisableTraderTypeA will be given priority, but you can erase the rest with just one of them.  
+*2 You have random initial player spawn because maybe trader building is starting point for initial spawn. wasteland, snow mountains, lake inside, etc...
+*3 If installed other Japanese translate mod, you can remove it.
 
 ### 使い方
 
 1. mkgaskDisableTraderModPack.zipを[リリースページ](https://github.com/mkgask/mkgask7dtdNoTraderMod/releases)からダウンロードし、展開してください。
-1. 展開して出てきた DisableTraderTypeAフォルダーかDisableTraderTypeBフォルダーのどちらか一つと、CraftSolarCellBankフォルダーを7DaysToDie.exeと同じフォルダーにあるModsフォルダー内にコピーしてください。  
+1. 展開して出てきた各フォルダーを、お好みに応じて7DaysToDie.exeと同じフォルダーにあるModsフォルダー内にコピーしたりしなかったりしてください。
   もしModsフォルダーが無かった場合は作成してください。
 1. 7DaysToDieを起動し、新規にランダムマップを作成して遊んでください。
 
 ### Usage
 
 1. Download "mkgaskDisableTraderModPack.zip" from [Releases](https://github.com/mkgask/mkgask7dtdNoTraderMod/releases) and extract.
-1. Copy "DisableTraderTypeA" folder or "DisableTraderTypeB" folder, and Copy "CraftSolarCellBank" folder to "Mods" folder in "7DaysToDie.exe" same folder.  
+1. You can copy or not copy each extracted folder to "Mods" folder in "7DaysToDie.exe" same folder.  
   if not exists "Mods" folder, create "Mods" folder.
 1.  Start 7DaysToDie, create new random map and enjoy play.
 

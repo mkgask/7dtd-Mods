@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="mkgaskTransrateJP" />
+		<Description value="Transrate jp language." />
+		<Author value="@mkgask" />
+		<Version value="0.1.0" />
+	</ModInfo>
+</xml>
