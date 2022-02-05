@@ -1,5 +1,9 @@
 # 7DaysToDie No Trader Mod Pack
 
+*a20.1(b6)で少し動かしてみた感じでは、a20-b238のmodで特に問題なく動くと思います。*
+
+*Maybe compatible a20-b238 version mod to a20.1(b6)*
+
 ### これは何
 
 [7DaysToDie](https://7daystodie.com)というサバイバルゾンビホードクラフトゲームのModパックです。
@@ -28,7 +32,7 @@ Includes Mods:
 - DisableTraderTypeC : Trader is closed 24 hours all time *1
 - CraftSolarCellBank : Require Advanced Engineering level 5
 - CraftFirstAidBandageFromBandage : Require Physician perk (vanilla default) and normal bandage with aloe cream
-- fixJpTranslate : Japanese correction a little *3
+- FixJpTranslate : Japanese correction a little *3
 
 *1 If you leave all of them in, DisableTraderTypeA will be given priority, but you can erase the rest with just one of them.  
 *2 You have random initial player spawn because maybe trader building is starting point for initial spawn. wasteland, snow mountains, lake inside, etc...
