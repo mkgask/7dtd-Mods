@@ -33,7 +33,7 @@ Includes Mods:
 - DisableTraderTypeC : Trader is closed 24 hours all time *1
 - CraftSolarCellBank : Require Advanced Engineering level 5
 - FixJpTranslate : Japanese correction a little *3
-- ~~CraftFirstAidBandageFromBandage : Require Physician perk (vanilla default) and normal bandage with aloe cream~~
+- ~~CraftFirstAidBandageFromBandage : Require Physician perk (vanilla default) and normal bandage with aloe cream~~ *4
 
 *1 If you leave all of them in, DisableTraderTypeA will be given priority, but you can erase the rest with just one of them.  
 *2 You have random initial player spawn because maybe trader building is starting point for initial spawn. wasteland, snow mountains, lake inside, etc...
