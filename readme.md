@@ -1,8 +1,8 @@
 # 7DaysToDie No Trader Mod Pack
 
-*a20.1(b6)で少し動かしてみた感じでは、a20-b238のmodで特に問題なく動くと思います。*
+*a21(b317)で少し動かしてみた感じでは、特に問題なく動くと思います。*
 
-*Maybe compatible a20-b238 version mod to a20.1(b6)*
+*Maybe compatible version mod to a21(b317)*
 
 ### これは何
 
@@ -14,12 +14,13 @@
 - DisableTraderTypeB : トレーダー縛りMod（トレーダーNPCだけ消去 : トレーダーの建物に近寄ると赤字エラーが出るうえ近距離ワープします）*1
 - DisableTraderTypeC : トレーダー縛りMod（トレーダー24時間閉店）*1
 - CraftSolarCellBank : ソーラーセルとソーラーバンクのレシピ追加 : 高度エンジニアリングLv5が必要です
-- CraftFirstAidBandageFromBandage : 普通の包帯とアロエクリームで救急包帯を作るレシピの追加
 - FixJpTranslate : 公式日本語を少し修正 *3
+- ~~CraftFirstAidBandageFromBandage : 普通の包帯とアロエクリームで救急包帯を作るレシピの追加~~ *4
 
 *1 全部入れたままだとDisableTraderTypeAが優先されますが、どれか一つだけで残りは消しても問題ないです。  
 *2 恐らくトレーダーの建物が初期スポーンの起点になっているため、初期スポーン地点が全マップ中からランダムになります。荒れ地とか雪山とか湖の中とかにスポーンする可能性があります。  
-*3 他の日本語化MODが入っている場合、削除して問題ありません。
+*3 他の日本語化MODが入っている場合、削除して問題ありません。  
+*4 公式でこのレシピになったので削除しました。
 
 ### What's this
 
@@ -31,12 +32,13 @@ Includes Mods:
 - DisableTraderTypeB : Remove trader npc : show console error and you will warp short distance, when approaching the trader building *1
 - DisableTraderTypeC : Trader is closed 24 hours all time *1
 - CraftSolarCellBank : Require Advanced Engineering level 5
-- CraftFirstAidBandageFromBandage : Require Physician perk (vanilla default) and normal bandage with aloe cream
 - FixJpTranslate : Japanese correction a little *3
+- ~~CraftFirstAidBandageFromBandage : Require Physician perk (vanilla default) and normal bandage with aloe cream~~
 
 *1 If you leave all of them in, DisableTraderTypeA will be given priority, but you can erase the rest with just one of them.  
 *2 You have random initial player spawn because maybe trader building is starting point for initial spawn. wasteland, snow mountains, lake inside, etc...
-*3 If installed other Japanese translate mod, you can remove it.
+*3 If installed other Japanese translate mod, you can remove it.  
+*4 Removed this mod because official recipe changes to same.
 
 ### 使い方
 
@@ -79,3 +81,15 @@ Includes Mods:
 Recommended settings are NO trader and NO air drop and, NO loot respawn.  
 Enemies become food and drink from zombies, and you can enjoy survival more.  
 I think you can more enjoy for rate down loot getting parameter.
+
+### バージョン情報
+
+2023/06/17  
+DisableTraderTypeA : 0.2.1 : トレーダー削除できなくなっていたので修正  
+その他のMOD : 0.1.1 : Modinfo.xmlを新しいフォーマットに対応
+
+### Versions
+
+06/17/2023  
+DisableTraderTypeA : 0.2.1 : Fixed to don't disable trader building.  
+Other mods : 0.1.1 : Replaced new Modinfo.xml Format.

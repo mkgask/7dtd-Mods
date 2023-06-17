@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<ModInfo>
-		<Name value="mkgaskDisableTraderTypeB" />
-		<Description value="Disable trader entities." />
-		<Author value="@mkgask" />
-		<Version value="0.1.0" />
-	</ModInfo>
+    <Name value="mkgaskDisableTraderTypeB" />
+    <Description value="Disable trader entities." />
+    <Author value="@mkgask" />
+    <Version value="0.1.1" />
 </xml>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<ModInfo>
-		<Name value="mkgaskDisableTraderTypeA" />
-		<Description value="Disable trader and Trader Building" />
-		<Author value="@mkgask" />
-		<Version value="0.1.0" />
-	</ModInfo>
+    <Name value="mkgaskDisableTraderTypeA" />
+    <Description value="Disable trader and Trader Building" />
+    <Author value="@mkgask" />
+    <Version value="0.2.1" />
 </xml>

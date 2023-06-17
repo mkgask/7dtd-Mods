@@ -1,5 +1,5 @@
 <configs>
-    <append xpath="/rwgmixer//township">
+    <set xpath="/rwgmixer//township[@name='roadside']">
 		<property name="spawn_trader" value="false"/>
-    </append>
+    </set>
 </configs>

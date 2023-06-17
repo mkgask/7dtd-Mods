@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
-	<ModInfo>
-		<Name value="mkgaskDisableTraderTypeC" />
-		<Description value="Trader is closed all time." />
-		<Author value="@mkgask" />
-		<Version value="0.1.0" />
-	</ModInfo>
+    <Name value="mkgaskDisableTraderTypeC" />
+    <Description value="Trader is closed all time." />
+    <Author value="@mkgask" />
+    <Version value="0.1.1" />
 </xml>
