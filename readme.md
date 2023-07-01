@@ -38,7 +38,7 @@ Includes Mods:
 - ~~CraftFirstAidBandageFromBandage : Require Physician perk (vanilla default) and normal bandage with aloe cream~~ *4
 
 *1 If you leave all of them in, DisableTraderTypeA will be given priority, but you can erase the rest with just one of them.  
-*2 You have random initial player spawn because maybe trader building is starting point for initial spawn. wasteland, snow mountains, lake inside, etc...
+*2 You have random initial player spawn because maybe trader building is starting point for initial spawn. wasteland, snow mountains, lake inside, etc...  
 *3 If installed other Japanese translate mod, you can remove it.  
 *4 Removed this mod because official recipe changes to same.
 
