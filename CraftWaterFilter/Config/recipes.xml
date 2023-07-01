@@ -1,0 +1,14 @@
+<configs>
+	<append xpath="/recipes">
+		<recipe name="resourceWaterFilter" count="1" tags="learnable">
+			<ingredient name="resourcePaper" count="5"/>
+			<ingredient name="resourceCoal" count="3"/>
+			<ingredient name="resourceCrushedSand" count="30"/>
+			<ingredient name="resourceScrapPolymers" count="20"/>
+			<ingredient name="resourceDuctTape" count="3"/>
+            <effect_group>
+                <passive_effect name="CraftingIngredientCount" level="0,1,2,3,4,5" operation="base_add" value="-1,-2" tags="resourcePaper,resourceCoal,resourceCrushedSand,resourceScrapPolymers,resourceDuctTape"/>
+            </effect_group>
+		</recipe>
+	</append>
+</configs>

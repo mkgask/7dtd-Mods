@@ -1,0 +1,9 @@
+<configs>
+	<setattribute xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/display_entry[@name_key='workstationsT1-1,workstationsT1-2']/unlock_entry[@unlock_tier='1']" name="item">
+        cntDewCollector,resourceWaterFilter
+    </setattribute>
+
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/effect_group">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="2,100" value="1" tags="resourceWaterFilter"/>
+    </append>
+</configs>

@@ -1,8 +1,8 @@
 # 7DaysToDie No Trader Mod Pack
 
-*a21(b317)で少し動かしてみた感じでは、特に問題なく動くと思います。*
+*a21(b324)で少し動かしてみた感じでは、特に問題なく動くと思います。*
 
-*Maybe compatible version mod to a21(b317)*
+*Maybe compatible a21(b324)*
 
 ### これは何
 
@@ -11,9 +11,10 @@
 以下のModが入っています:
 
 - DisableTraderTypeA : トレーダー縛りMod（建物ごと消去）*1 *2
-- DisableTraderTypeB : トレーダー縛りMod（トレーダーNPCだけ消去 : トレーダーの建物に近寄ると赤字エラーが出るうえ近距離ワープします）*1
-- DisableTraderTypeC : トレーダー縛りMod（トレーダー24時間閉店）*1
-- CraftSolarCellBank : ソーラーセルとソーラーバンクのレシピ追加 : 高度エンジニアリングLv5が必要です
+- DisableTraderTypeB : トレーダー縛りMod（トレーダーNPCだけ消去 : トレーダーの敷地に入ると赤字エラーが出るうえワープします）*1
+- DisableTraderTypeC : トレーダー縛りMod（トレーダー24時間閉店 : トレーダーの敷地に入るとワープします）*1
+- CraftSolarCellBank : ソーラーセルとソーラーバンクのレシピ追加 : 電気技師（ワイヤリング101の本）Lv75が必要です
+- CraftWaterFilter : ウォーターフィルターのレシピ追加 : 作業場（フォージアヘッドの本）Lv2が必要です
 - FixJpTranslate : 公式日本語を少し修正 *3
 - ~~CraftFirstAidBandageFromBandage : 普通の包帯とアロエクリームで救急包帯を作るレシピの追加~~ *4
 
@@ -29,9 +30,10 @@ This is Mod Pack for [7DaysToDie](https://7daystodie.com) survival zombie horde 
 Includes Mods:
 
 - DisableTraderTypeA : Remove trader with trader Building *1 *2
-- DisableTraderTypeB : Remove trader npc : show console error and you will warp short distance, when approaching the trader building *1
-- DisableTraderTypeC : Trader is closed 24 hours all time *1
-- CraftSolarCellBank : Require Advanced Engineering level 5
+- DisableTraderTypeB : Remove trader npc : show console error and you will warp, when approaching the trader area *1
+- DisableTraderTypeC : Trader is closed 24 hours all time : you will warp, when approaching the trader area *1
+- CraftSolarCellBank : Add recipe to SolarCell and SolarBank : Require to Electrician (book of Wiring 101) level 75
+- CraftWaterFilter : Add recipe to WaterFilter : Require to Workstations (bool of Forge Ahead) Lv2
 - FixJpTranslate : Japanese correction a little *3
 - ~~CraftFirstAidBandageFromBandage : Require Physician perk (vanilla default) and normal bandage with aloe cream~~ *4
 
@@ -59,16 +61,14 @@ Includes Mods:
 - TypeAをインストールした場合は、プレイヤーの初期スポーン地点がランダムになります。  
   荒れ地や雪山、湖の中などにスポーンする場合があります。
 - 本Modlet導入後、ランダムマップを新規に作成してプレイしてください。  
-  既存のマップはロード出来なくなる場合があります。
-- 既存のマップでプレイ出来た場合や、トレーダーの削除に失敗していた場合は、トレーダーはずっと閉店しています。
+  既存のマップで遊べるかは未確認です。
 
 ### Warning
 
 - Player initial spawn will be randomized if install DisableTraderTypeA Mod.
   It may spawn in wastelands, snowy mountains, lakes, etc.
 - You can create new random map when enable this Modlet.  
-  Existing maps may not be able to be loaded.
-- If you can play exist maps or you have failed to remove trader, the trader will be closed all the time.
+  Not confirmed to play in exist maps.
 
 ### ちなみに
 
@@ -84,11 +84,17 @@ I think you can more enjoy for rate down loot getting parameter.
 
 ### バージョン情報
 
+2023/07/01
+CraftWaterFilter : 0.1.1 : 追加
+
 2023/06/17  
 DisableTraderTypeA : 0.2.1 : トレーダー削除できなくなっていたので修正  
 その他のMOD : 0.1.1 : Modinfo.xmlを新しいフォーマットに対応
 
 ### Versions
+
+07/01/2023
+CraftWaterFilter : 0.1.1 : added
 
 06/17/2023  
 DisableTraderTypeA : 0.2.1 : Fixed to don't disable trader building.  
