@@ -1,8 +1,8 @@
 # 7DaysToDie No Trader Mod Pack
 
-*a21(b324)で少し動かしてみた感じでは、特に問題なく動くと思います。*
+*A21(b324)で少し動かしてみた感じでは、DisableTraderTypeA以外は特に問題なく動くと思います。*
 
-*Maybe compatible a21(b324)*
+*Maybe compatible A21(b324) without DisableTraderTypeA*
 
 ### これは何
 
