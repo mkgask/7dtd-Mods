@@ -10,7 +10,7 @@
 
 以下のModが入っています:
 
-- DisableTraderTypeA : トレーダー縛りMod（建物ごと消去）*1 *2
+- ~~DisableTraderTypeA~~ : トレーダー縛りMod（建物ごと消去）*1 *2 ***5 (important)**
 - DisableTraderTypeB : トレーダー縛りMod（トレーダーNPCだけ消去 : トレーダーの敷地に入ると赤字エラーが出るうえワープします）*1
 - DisableTraderTypeC : トレーダー縛りMod（トレーダー24時間閉店 : トレーダーの敷地に入るとワープします）*1
 - CraftSolarCellBank : ソーラーセルとソーラーバンクのレシピ追加 : 電気技師（ワイヤリング101の本）Lv75が必要です
@@ -21,7 +21,8 @@
 *1 全部入れたままだとDisableTraderTypeAが優先されますが、どれか一つだけで残りは消しても問題ないです。  
 *2 恐らくトレーダーの建物が初期スポーンの起点になっているため、初期スポーン地点が全マップ中からランダムになります。荒れ地とか雪山とか湖の中とかにスポーンする可能性があります。  
 *3 他の日本語化MODが入っている場合、削除して問題ありません。  
-*4 公式でこのレシピになったので削除しました。
+*4 公式でこのレシピになったので削除しました。  
+***5 今のところ DisableTraderTypeA は a21-b324 で動いていません。XMLの記述を変える必要がありそうなんですが、正しい記述をまだ見つけられていません。**
 
 ### What's this
 
@@ -29,7 +30,7 @@ This is Mod Pack for [7DaysToDie](https://7daystodie.com) survival zombie horde 
 
 Includes Mods:
 
-- DisableTraderTypeA : Remove trader with trader Building *1 *2
+- ~~DisableTraderTypeA~~ : Remove trader with trader Building *1 *2 ***5 (important)**
 - DisableTraderTypeB : Remove trader npc : show console error and you will warp, when approaching the trader area *1
 - DisableTraderTypeC : Trader is closed 24 hours all time : you will warp, when approaching the trader area *1
 - CraftSolarCellBank : Add recipe to SolarCell and SolarBank : Require to Electrician (book of Wiring 101) level 75
@@ -40,7 +41,8 @@ Includes Mods:
 *1 If you leave all of them in, DisableTraderTypeA will be given priority, but you can erase the rest with just one of them.  
 *2 You have random initial player spawn because maybe trader building is starting point for initial spawn. wasteland, snow mountains, lake inside, etc...  
 *3 If installed other Japanese translate mod, you can remove it.  
-*4 Removed this mod because official recipe changes to same.
+*4 Removed this mod because official recipe changes to same.  
+***5 CAN'T DISABLE trader spawn at DisableTraderTypeA in a21-b324. I haven't found right wrote yet, probably i need to change write the XML.**
 
 ### 使い方
 

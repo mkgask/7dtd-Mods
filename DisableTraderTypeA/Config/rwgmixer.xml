@@ -1,9 +1,12 @@
 <configs>
-    <set xpath="/rwgmixer//township[@name='roadside']">
+    <remove xpath="/rwgmixer/township/property[@name='spawn_trader']"/>
+    <remove xpath="/rwgmixer/district/property[@name='spawn_trader']"/>
+
+    <set xpath="/rwgmixer/township">
         <property name="spawn_trader" value="false"/>
     </set>
 
-    <setattribute xpath="/rwgmixer//township[@name='roadside']/property[@name='spawn_trader']" name="value">
-        false
-    </setattribute>
+    <set xpath="/rwgmixer/district">
+        <property name="spawn_trader" value="false"/>
+    </set>
 </configs>
